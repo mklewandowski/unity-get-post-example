@@ -6,8 +6,8 @@ Use the following steps to run locally:
 1. Clone this repo
 2. Open repo folder using Unity 2021.3.0f.1
 3. Install Text Mesh Pro
-4. Upload `unity-get-post-example-process.php` and `unity-get-post-example-process.txt` located in the `WebServer` folder to a web server that you will use for testing.
-5. In the `Upload` and `Download` functions located in `SceneManager.cs`, change the 2 instance of "www.MYSERVER.com" to the web server that you will use for testing.
+4. Upload `unity-get-post-example-process.php` and `unity-get-post-example-process.txt` located in the `WebServer` folder to a web server that you will use for testing. The web server must support PHP for this application to work.
+5. In the `Upload` and `Download` functions located in `SceneManager.cs`, change the 2 instances of `www.MYSERVER.com` to the web server that you will use for testing.
 
 ## Development Tools
 - Created using Unity 2021.3.0f.1
