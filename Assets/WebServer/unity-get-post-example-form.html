@@ -1,0 +1,21 @@
+ <html>
+<body>
+<h2>Example HTML Form</h2>
+<p>This HTML form allows the user to choose their favorite color. It then uses POST to send the answer to a PHP script for processing. The answer is then added to a small CSV text file that stores the cummulative results as a simple list of numbers. The <a href="unity-get-post-example-process.txt">CSV text file</a> with the answers can be seen <a href="unity-get-post-example-process.txt">here</a> (the starting value of the file is "0,0,0,0").
+
+
+<p>What is your favorite color?</p>
+<form action="unity-get-post-example-process.php" method="post">
+	<input type="radio" id="0" name="answer-index" value="0">
+	<label for="0">Red</label><br>
+	<input type="radio" id="1" name="answer-index" value="1">
+	<label for="1">Yellow</label><br>
+	<input type="radio" id="2" name="answer-index" value="2">
+	<label for="2">Green</label><br>
+	<input type="radio" id="3" name="answer-index" value="3">
+	<label for="3">Blue</label><br><br>
+	<input type="submit" value="Submit">
+</form> 
+
+</body>
+</html> 
