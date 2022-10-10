@@ -44,7 +44,7 @@ public class SceneManager : MonoBehaviour
         WWWForm form = new WWWForm();
         form.AddField("answer-index", colorIndex);
 
-        using (UnityWebRequest www = UnityWebRequest.Post("http://www.MYSERVER.com/unity-get-post-example-process.php", form))
+        using (UnityWebRequest www = UnityWebRequest.Post("http://www.team2bit.com/unity-get-post-example-process.php", form))
         {
             yield return www.SendWebRequest();
 
@@ -69,7 +69,7 @@ public class SceneManager : MonoBehaviour
 
     IEnumerator Download()
     {
-        UnityWebRequest www = UnityWebRequest.Get("http://www.MYSERVER.com/unity-get-post-example-process.txt");
+        UnityWebRequest www = UnityWebRequest.Get("http://www.team2bit.com/unity-get-post-example-process.txt");
         yield return www.SendWebRequest();
 
         if (www.result != UnityWebRequest.Result.Success) {
